@@ -18,7 +18,7 @@
    <body>
        <center>
        <h1>Login</h1>
-       <form method="post" action="/exerc3jsp/login.jsp">
+       <form method="post" action="login.jsp">
          Código: <input type="text" name="login"/><br/><br/>
          Nome: <input type="password" name="senha"/><br/><br/>
          Perfil: <select name="perfil">
