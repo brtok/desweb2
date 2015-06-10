@@ -1,4 +1,4 @@
-<%-- 
+﻿<%-- 
     Document   : login
     Created on : 30/04/2015, 18:31:32
     Author     : Bruno
@@ -18,7 +18,7 @@
    <body>
        <center>
        <h1>Login</h1>
-       <form method="post" action="login.jsp">
+       <form method="post" action="/pratica-jsp/login.jsp">
          Código: <input type="text" name="login"/><br/><br/>
          Nome: <input type="password" name="senha"/><br/><br/>
          Perfil: <select name="perfil">
