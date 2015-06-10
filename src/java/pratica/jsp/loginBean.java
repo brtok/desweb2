@@ -62,7 +62,7 @@ public class loginBean {
     
     public String getDataHoraServidor() {
          Date now = new Date();
-         DateFormat formatter = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+         DateFormat formatter = new SimpleDateFormat("HH:mm:ss dd/MM/yyyy");
          String dh = formatter.format(now);
          return dh;
     }
